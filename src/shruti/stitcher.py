@@ -124,16 +124,3 @@ class PanaromaStitcher:
 
         return H
 
-# Usage Example
-# if __name__ == "__main__":
-#     stitcher = PanaromaStitcher()
-#     path_to_images = "/home/shruti/assignment-03/ES666-Assignment3/Images"  
-#     stitched_image, homography_matrices = stitcher.make_panaroma_for_images_in(path_to_images)
-
-#     # Save the stitched image to the results folder
-#     if stitched_image is not None:
-#         output_path = './results/stitched_image.jpg'
-#         cv2.imwrite(output_path, stitched_image)
-#         print(f'Successfully saved the stitched image to {output_path}')
-#     else:
-#         print('Stitching was unsuccessful. Check the input images and try again.')
